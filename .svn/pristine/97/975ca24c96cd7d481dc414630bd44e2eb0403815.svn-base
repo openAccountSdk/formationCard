@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="common_RoundCustomImageView">
+        <attr name="common_rtiv_fill_color" format="color" />
+        <attr name="common_rtiv_support_square" format="boolean" />
+        <attr name="common_rtiv_top_left_radius" format="dimension" />
+        <attr name="common_rtiv_top_right_radius" format="dimension" />
+        <attr name="common_rtiv_bottom_left_radius" format="dimension" />
+        <attr name="common_rtiv_bottom_right_radius" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ucommon_scv_CropImageView">
+        <attr name="ucommon_scv_img_src" format="reference" />
+        <attr name="ucommon_scv_crop_mode">
+            <enum name="fit_image" value="0" />
+            <enum name="ratio_4_3" value="1" />
+            <enum name="ratio_3_4" value="2" />
+            <enum name="square" value="3" />
+            <enum name="ratio_16_9" value="4" />
+            <enum name="ratio_9_16" value="5" />
+            <enum name="free" value="6" />
+            <enum name="custom" value="7" />
+            <enum name="circle" value="8" />
+            <enum name="circle_square" value="9" />
+        </attr>
+        <attr name="ucommon_scv_background_color" format="reference|color" />
+        <attr name="ucommon_scv_overlay_color" format="reference|color" />
+        <attr name="ucommon_scv_frame_color" format="reference|color" />
+        <attr name="ucommon_scv_handle_color" format="reference|color" />
+        <attr name="ucommon_scv_guide_color" format="reference|color" />
+        <attr name="ucommon_scv_guide_show_mode">
+            <enum name="show_always" value="1" />
+            <enum name="show_on_touch" value="2" />
+            <enum name="not_show" value="3" />
+        </attr>
+        <attr name="ucommon_scv_handle_show_mode">
+            <enum name="show_always" value="1" />
+            <enum name="show_on_touch" value="2" />
+            <enum name="not_show" value="3" />
+        </attr>
+        <attr name="ucommon_scv_handle_size" format="dimension" />
+        <attr name="ucommon_scv_touch_padding" format="dimension" />
+        <attr name="ucommon_scv_min_frame_size" format="dimension" />
+        <attr name="ucommon_scv_frame_stroke_weight" format="dimension" />
+        <attr name="ucommon_scv_guide_stroke_weight" format="dimension" />
+        <attr name="ucommon_scv_crop_enabled" format="boolean" />
+        <attr name="ucommon_scv_initial_frame_scale" format="float" />
+        <attr name="ucommon_scv_animation_enabled" format="boolean" />
+        <attr name="ucommon_scv_animation_duration" format="integer" />
+        <attr name="ucommon_scv_handle_shadow_enabled" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ucommon_sv_SignView">
+        <attr name="ucommon_sv_bg_dash_color" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="common_AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr name="indicator_color" format="color"/>
+    </declare-styleable>
+
+</resources>

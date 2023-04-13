@@ -1,0 +1,197 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui;
+
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.Spinner;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import androidx.recyclerview.widget.RecyclerView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import java.lang.CharSequence;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class OpenAccountActivity_ViewBinding implements Unbinder {
+  private OpenAccountActivity target;
+
+  private View view52f;
+
+  private TextWatcher view52fTextWatcher;
+
+  private View view52d;
+
+  private TextWatcher view52dTextWatcher;
+
+  private View view52e;
+
+  private TextWatcher view52eTextWatcher;
+
+  private View view525;
+
+  private View view52a;
+
+  private View view528;
+
+  @UiThread
+  public OpenAccountActivity_ViewBinding(OpenAccountActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public OpenAccountActivity_ViewBinding(final OpenAccountActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.bus_edit_phone, "field 'editPhone' and method 'onTextChange'");
+    target.editPhone = Utils.castView(view, R.id.bus_edit_phone, "field 'editPhone'", EditText.class);
+    view52f = view;
+    view52fTextWatcher = new TextWatcher() {
+      @Override
+      public void onTextChanged(CharSequence p0, int p1, int p2, int p3) {
+        target.onTextChange(p0);
+      }
+
+      @Override
+      public void beforeTextChanged(CharSequence p0, int p1, int p2, int p3) {
+      }
+
+      @Override
+      public void afterTextChanged(Editable p0) {
+      }
+    };
+    ((TextView) view).addTextChangedListener(view52fTextWatcher);
+    view = Utils.findRequiredView(source, R.id.bus_edit_job_number, "field 'editJobNum' and method 'onTextChange'");
+    target.editJobNum = Utils.castView(view, R.id.bus_edit_job_number, "field 'editJobNum'", EditText.class);
+    view52d = view;
+    view52dTextWatcher = new TextWatcher() {
+      @Override
+      public void onTextChanged(CharSequence p0, int p1, int p2, int p3) {
+        target.onTextChange(p0);
+      }
+
+      @Override
+      public void beforeTextChanged(CharSequence p0, int p1, int p2, int p3) {
+      }
+
+      @Override
+      public void afterTextChanged(Editable p0) {
+      }
+    };
+    ((TextView) view).addTextChangedListener(view52dTextWatcher);
+    view = Utils.findRequiredView(source, R.id.bus_edit_number_val, "field 'editNumberVal' and method 'onTextChange'");
+    target.editNumberVal = Utils.castView(view, R.id.bus_edit_number_val, "field 'editNumberVal'", EditText.class);
+    view52e = view;
+    view52eTextWatcher = new TextWatcher() {
+      @Override
+      public void onTextChanged(CharSequence p0, int p1, int p2, int p3) {
+        target.onTextChange(p0);
+      }
+
+      @Override
+      public void beforeTextChanged(CharSequence p0, int p1, int p2, int p3) {
+      }
+
+      @Override
+      public void afterTextChanged(Editable p0) {
+      }
+    };
+    ((TextView) view).addTextChangedListener(view52eTextWatcher);
+    target.layoutDetail = Utils.findRequiredViewAsType(source, R.id.bus_layout_detail_container, "field 'layoutDetail'", LinearLayout.class);
+    target.txtCardName = Utils.findRequiredViewAsType(source, R.id.bus_txt_card_name, "field 'txtCardName'", TextView.class);
+    target.txtCardNumber = Utils.findRequiredViewAsType(source, R.id.bus_txt_card_number, "field 'txtCardNumber'", TextView.class);
+    target.txtCardAddress = Utils.findRequiredViewAsType(source, R.id.bus_txt_card_address, "field 'txtCardAddress'", TextView.class);
+    target.txtProduct = Utils.findRequiredViewAsType(source, R.id.bus_txt_product, "field 'txtProduct'", TextView.class);
+    target.layoutFeeDetail = Utils.findRequiredViewAsType(source, R.id.bus_layout_fee_detail_container, "field 'layoutFeeDetail'", LinearLayout.class);
+    target.txtFeeDetail = Utils.findRequiredViewAsType(source, R.id.bus_txt_fee_detail, "field 'txtFeeDetail'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.bus_btn_check, "field 'btnCheck' and method 'toCheck'");
+    target.btnCheck = Utils.castView(view, R.id.bus_btn_check, "field 'btnCheck'", Button.class);
+    view525 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toCheck();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.bus_btn_scan, "field 'btnScan' and method 'toScan'");
+    target.btnScan = Utils.castView(view, R.id.bus_btn_scan, "field 'btnScan'", Button.class);
+    view52a = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toScan();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.bus_btn_next, "field 'btnNext' and method 'toNext'");
+    target.btnNext = Utils.castView(view, R.id.bus_btn_next, "field 'btnNext'", Button.class);
+    view528 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toNext();
+      }
+    });
+    target.rvMainPackage = Utils.findRequiredViewAsType(source, R.id.rv_main_package, "field 'rvMainPackage'", RecyclerView.class);
+    target.giftFeeDetail = Utils.findRequiredViewAsType(source, R.id.gift_fee_detail, "field 'giftFeeDetail'", TextView.class);
+    target.tvLowConsumptionDes = Utils.findRequiredViewAsType(source, R.id.bus_txt_low_consumption_des, "field 'tvLowConsumptionDes'", TextView.class);
+    target.llGiftFeeDetailContainer = Utils.findRequiredViewAsType(source, R.id.ll_gift_fee_description_container, "field 'llGiftFeeDetailContainer'", LinearLayout.class);
+    target.layout_equipment = Utils.findRequiredViewAsType(source, R.id.layout_equipment, "field 'layout_equipment'", LinearLayout.class);
+    target.layoutPackageContainer = Utils.findRequiredViewAsType(source, R.id.bus_layout_package_container, "field 'layoutPackageContainer'", LinearLayout.class);
+    target.layoutMultipleChoicePackage = Utils.findRequiredViewAsType(source, R.id.bus_layout_multiple_choice_package, "field 'layoutMultipleChoicePackage'", LinearLayout.class);
+    target.spinnerDevices = Utils.findRequiredViewAsType(source, R.id.bus_spinner_devices, "field 'spinnerDevices'", Spinner.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    OpenAccountActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.editPhone = null;
+    target.editJobNum = null;
+    target.editNumberVal = null;
+    target.layoutDetail = null;
+    target.txtCardName = null;
+    target.txtCardNumber = null;
+    target.txtCardAddress = null;
+    target.txtProduct = null;
+    target.layoutFeeDetail = null;
+    target.txtFeeDetail = null;
+    target.btnCheck = null;
+    target.btnScan = null;
+    target.btnNext = null;
+    target.rvMainPackage = null;
+    target.giftFeeDetail = null;
+    target.tvLowConsumptionDes = null;
+    target.llGiftFeeDetailContainer = null;
+    target.layout_equipment = null;
+    target.layoutPackageContainer = null;
+    target.layoutMultipleChoicePackage = null;
+    target.spinnerDevices = null;
+
+    ((TextView) view52f).removeTextChangedListener(view52fTextWatcher);
+    view52fTextWatcher = null;
+    view52f = null;
+    ((TextView) view52d).removeTextChangedListener(view52dTextWatcher);
+    view52dTextWatcher = null;
+    view52d = null;
+    ((TextView) view52e).removeTextChangedListener(view52eTextWatcher);
+    view52eTextWatcher = null;
+    view52e = null;
+    view525.setOnClickListener(null);
+    view525 = null;
+    view52a.setOnClickListener(null);
+    view52a = null;
+    view528.setOnClickListener(null);
+    view528 = null;
+  }
+}

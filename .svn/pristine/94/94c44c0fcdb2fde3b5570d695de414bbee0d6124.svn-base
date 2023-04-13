@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:padding="6dp">
+
+        <com.uyou.copenaccount.view.crop.CropImageView
+            android:id="@+id/com_view_crop_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp">
+
+        <ImageView
+            android:id="@+id/com_image_close_crop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:src="@drawable/com_drawable_selector_btn_close_camera" />
+
+
+        <ImageView
+            android:id="@+id/com_image_crop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:padding="12dp"
+            android:src="@drawable/com_drawable_selector_btn_crop" />
+
+    </FrameLayout>
+</LinearLayout>

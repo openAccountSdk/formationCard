@@ -1,0 +1,97 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui;
+
+import android.view.View;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class UploadOpenAccountPicActivity_ViewBinding implements Unbinder {
+  private UploadOpenAccountPicActivity target;
+
+  private View view530;
+
+  private View view531;
+
+  private View view58d;
+
+  private View view526;
+
+  @UiThread
+  public UploadOpenAccountPicActivity_ViewBinding(UploadOpenAccountPicActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public UploadOpenAccountPicActivity_ViewBinding(final UploadOpenAccountPicActivity target,
+      View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.bus_image_card, "field 'imageCard' and method 'toSelectCard'");
+    target.imageCard = Utils.castView(view, R.id.bus_image_card, "field 'imageCard'", AppCompatImageView.class);
+    view530 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toSelectCard();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.bus_image_card_back, "field 'imageCardBack' and method 'toSelectBack'");
+    target.imageCardBack = Utils.castView(view, R.id.bus_image_card_back, "field 'imageCardBack'", AppCompatImageView.class);
+    view531 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toSelectBack();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.id_card_and_sim, "field 'imageCardAndSim' and method 'toSelectCardAndSim'");
+    target.imageCardAndSim = Utils.castView(view, R.id.id_card_and_sim, "field 'imageCardAndSim'", AppCompatImageView.class);
+    view58d = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toSelectCardAndSim();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.bus_btn_commit, "field 'btnCommit' and method 'toCommit'");
+    target.btnCommit = Utils.castView(view, R.id.bus_btn_commit, "field 'btnCommit'", AppCompatTextView.class);
+    view526 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toCommit();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    UploadOpenAccountPicActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.imageCard = null;
+    target.imageCardBack = null;
+    target.imageCardAndSim = null;
+    target.btnCommit = null;
+
+    view530.setOnClickListener(null);
+    view530 = null;
+    view531.setOnClickListener(null);
+    view531 = null;
+    view58d.setOnClickListener(null);
+    view58d = null;
+    view526.setOnClickListener(null);
+    view526 = null;
+  }
+}

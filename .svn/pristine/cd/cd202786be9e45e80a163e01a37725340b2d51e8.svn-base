@@ -1,0 +1,54 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui;
+
+import android.view.View;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ConfirmAccountOpeningActivity_ViewBinding implements Unbinder {
+  private ConfirmAccountOpeningActivity target;
+
+  private View view52c;
+
+  @UiThread
+  public ConfirmAccountOpeningActivity_ViewBinding(ConfirmAccountOpeningActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ConfirmAccountOpeningActivity_ViewBinding(final ConfirmAccountOpeningActivity target,
+      View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.bus_confirm, "field 'btnNext' and method 'confirmHandling'");
+    target.btnNext = Utils.castView(view, R.id.bus_confirm, "field 'btnNext'", TextView.class);
+    view52c = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.confirmHandling();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ConfirmAccountOpeningActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.btnNext = null;
+
+    view52c.setOnClickListener(null);
+    view52c = null;
+  }
+}

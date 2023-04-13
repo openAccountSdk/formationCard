@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/com_layout_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:id="@+id/com_layout_camera_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.uyou.copenaccount.ui.pic.view.FocusView
+                android:id="@+id/com_view_focus_view"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true" />
+            <!--身份证正面 横屏 -->
+            <ImageView
+                android:id="@+id/front_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/bg_front_of_id_card_horizontal"
+                android:visibility="gone" />
+            <!--身份证反面 横屏 -->
+            <ImageView
+                android:id="@+id/obverse_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/bg_reverse_side_of_id_card_horizontal"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/com_image_card_and_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/com_icon_camera_card_and_person"
+                android:visibility="gone" />
+            <!--身份证正面以及卡板 -->
+            <LinearLayout
+                android:id="@+id/com_layout_card_and_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="75dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_front_of_id_card" />
+
+                <ImageView
+                    android:id="@+id/com_image_card_sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="40dp"
+                    android:src="@drawable/bg_scan_card" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp">
+
+            <ImageView
+                android:id="@+id/com_image_close_camera"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:src="@drawable/com_drawable_selector_btn_close_camera" />
+
+            <ImageView
+                android:id="@+id/com_image_take_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/com_drawable_selector_btn_take_photo" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/com_layout_crop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:padding="6dp">
+
+            <com.uyou.copenaccount.view.crop.CropImageView
+                android:id="@+id/com_view_crop_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingTop="8dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp">
+
+            <ImageView
+                android:id="@+id/com_image_close_crop"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="12dp"
+                android:src="@drawable/com_drawable_selector_btn_close_camera" />
+
+            <TextView
+                android:id="@+id/com_txt_ratio_16_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/com_image_close_crop"
+                android:background="@drawable/com_drawable_bg_camera_ratio"
+                android:text="16:9"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/com_txt_rotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/com_drawable_bg_camera_ratio"
+                android:text="旋转"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+
+            <ImageView
+                android:id="@+id/com_image_crop"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:padding="12dp"
+                android:src="@drawable/com_drawable_selector_btn_crop" />
+
+            <TextView
+                android:id="@+id/com_txt_ratio_9_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:layout_toLeftOf="@+id/com_image_crop"
+                android:background="@drawable/com_drawable_bg_camera_ratio"
+                android:text="9:16"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

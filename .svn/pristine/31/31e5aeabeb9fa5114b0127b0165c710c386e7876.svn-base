@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_common_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_app_bg_white"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_item_title_recharge"
+                android:textColor="@color/common_content"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/pay_edit_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pay_drawable_bg_recharge_edit"
+                android:hint="@string/pay_hint_recharge"
+                android:imeActionLabel="@string/pay_recharge_ime_confirm"
+                android:imeOptions="actionGo"
+                android:inputType="number"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/common_content"
+                android:textColorHint="@color/common_hint"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/pay_layout_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pay_recharge_select_recharge"
+                    android:textColor="@color/common_content"
+                    android:textSize="16sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/pay_recycler_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pay_txt_select_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/common_content"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/pay_txt_recharge_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/pay_recharge_tip"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/pay_btn_recharge"
+                    style="@style/common_btn"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="60dp"
+                    android:text="@string/pay_recharge_btn"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/pay_icon_recharge_tip"
+                android:gravity="center_vertical"
+                android:text="@string/pay_tip_recharge_title"
+                android:textColor="@color/pay_recharge_tip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_tip_recharge"
+                android:textColor="@color/pay_recharge_tip" />
+
+
+            <LinearLayout
+                android:id="@+id/pay_layout_income"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/pay_bg_recharge_income"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/pay_icon_recharge_income" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#f0ff00" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/pay_recharge_income_all"
+                        android:textColor="@color/pay_recharge_income"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/pay_txt_income_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/pay_recharge_income"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#f0ff00" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/pay_recharge_income_yesterday"
+                        android:textColor="@color/pay_recharge_income"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/pay_txt_income_yesterday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/pay_recharge_income"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#f0ff00" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/pay_recharge_income_today"
+                        android:textColor="@color/pay_recharge_income"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/pay_txt_income_today"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/pay_recharge_income"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

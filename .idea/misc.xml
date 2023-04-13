@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../.gradle/caches/transforms-1/files-1.1/commonSdk-release.aar/9dd116827a33cf718a63fa66aa7e50a6/res/layout/common_xpopup_drawer_popup_view.xml" value="0.1" />
+        <entry key="../../.gradle/caches/transforms-1/files-1.1/intoCard-release.aar/52137cbddac55166e1e9ed3a1f7cee9b/res/layout/common_xpopup_drawer_popup_view.xml" value="0.17864583333333334" />
+        <entry key="../../.gradle/caches/transforms-1/files-1.1/intoCard-release.aar/a02e27b2bad757bc460cc77b46f5b960/res/layout/common_xpopup_drawer_popup_view.xml" value="0.10677083333333333" />
+        <entry key="../../AppBSDK/SDKCommon/sdkCommon/src/main/res/drawable/ucommon_selector_btn_gradient.xml" value="0.36102564102564105" />
+        <entry key="../../AppBSDK/SDKCommon/sdkCommon/src/main/res/layout/ucommon_common_title.xml" value="0.35052083333333334" />
+        <entry key="../../AppBSDK/SDKCommon/sdkCommon/src/main/res/layout/ucommon_dialog_loading.xml" value="0.35052083333333334" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/drawable/uyou_bg_btn_connect_device.xml" value="0.36666666666666664" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/drawable/uyou_btn_selector_connect_device_font.xml" value="0.36666666666666664" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/drawable/uyou_common_bg_white_radius.xml" value="0.36666666666666664" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/drawable/uyou_spinner_check_box.xml" value="0.27447916666666666" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/drawable/uyou_spinner_txt_check_box.xml" value="0.27447916666666666" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_device_list.xml" value="0.25435897435897437" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_face_result.xml" value="0.25833333333333336" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_open_account.xml" value="0.25833333333333336" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_package_new.xml" value="0.25833333333333336" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_protocol.xml" value="0.3148148148148148" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_read_and_write_sim.xml" value="0.375" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_read_id.xml" value="0.25833333333333336" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_recharge_select.xml" value="0.27239583333333334" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_sign.xml" value="0.33" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_upload_id.xml" value="0.25833333333333336" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_upload_id_back.xml" value="0.33645833333333336" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_adapter_package_new.xml" value="0.25833333333333336" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_adapter_recharge.xml" value="0.27239583333333334" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_adapter_spinner.xml" value="0.25435897435897437" />
+        <entry key="../../AppBSDK/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_adapter_spinner_check_style.xml" value="0.25435897435897437" />
+        <entry key="../../asd_AppBSDK/sdkHaoU/src/main/res/drawable/uyou_spinner_txt_check_box.xml" value="0.18796296296296297" />
+        <entry key="../../asd_AppBSDK/sdkHaoU/src/main/res/layout/uyou_activity_device_list.xml" value="0.32864583333333336" />
+        <entry key="../../asd_AppBSDK/sdkHaoU/src/main/res/layout/uyou_activity_upload_id_back.xml" value="0.1" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/bus_activity_receipt.xml" value="0.25833333333333336" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/bus_adapter_agreement_list.xml" value="0.67" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_face_result.xml" value="0.25833333333333336" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_open_account.xml" value="0.25833333333333336" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_package.xml" value="0.27239583333333334" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_protocol.xml" value="0.25833333333333336" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_receipt.xml" value="0.33" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_sign.xml" value="0.25" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_activity_upload_id_back.xml" value="0.25833333333333336" />
+        <entry key="../BSDK_Android/SDKOpenAccount/sdkHaoU/src/main/res/layout/uyou_item_package_spinner_new.xml" value="0.27239583333333334" />
+        <entry key="app/src/main/res/layout/fragment_tab_mine.xml" value="0.33" />
+        <entry key="cOpenAccount/src/main/res/drawable/bus_drawable_check.xml" value="0.337037037037037" />
+        <entry key="cOpenAccount/src/main/res/drawable/bus_drawable_open_spinner.xml" value="0.337037037037037" />
+        <entry key="cOpenAccount/src/main/res/drawable/bus_drawable_sign_check.xml" value="0.1734375" />
+        <entry key="cOpenAccount/src/main/res/drawable/bus_spinner_check_box.xml" value="0.1734375" />
+        <entry key="cOpenAccount/src/main/res/drawable/bus_spinner_txt_check_box.xml" value="0.337037037037037" />
+        <entry key="cOpenAccount/src/main/res/drawable/com_drawable_selector_btn_close_camera.xml" value="0.31846153846153846" />
+        <entry key="cOpenAccount/src/main/res/drawable/com_drawable_selector_btn_crop.xml" value="0.12395833333333334" />
+        <entry key="cOpenAccount/src/main/res/drawable/com_drawable_selector_btn_take_photo.xml" value="0.31846153846153846" />
+        <entry key="cOpenAccount/src/main/res/drawable/common_selector_btn_gradient.xml" value="0.3394871794871795" />
+        <entry key="cOpenAccount/src/main/res/drawable/common_selector_btn_gradient_font.xml" value="0.3394871794871795" />
+        <entry key="cOpenAccount/src/main/res/drawable/openh5_progress_web_view.xml" value="0.1734375" />
+        <entry key="cOpenAccount/src/main/res/drawable/reader_dialog_selector_btn_bottom_left.xml" value="0.1734375" />
+        <entry key="cOpenAccount/src/main/res/drawable/reader_dialog_selector_btn_bottom_right.xml" value="0.1734375" />
+        <entry key="cOpenAccount/src/main/res/drawable/reader_dialog_selector_txt_color_green.xml" value="0.1734375" />
+        <entry key="cOpenAccount/src/main/res/drawable/reader_dialog_selector_txt_color_grey.xml" value="0.1734375" />
+        <entry key="cOpenAccount/src/main/res/drawable/reader_dialog_title.xml" value="0.1453125" />
+        <entry key="cOpenAccount/src/main/res/layout/activity_confirm_account_opening.xml" value="0.19895833333333332" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_activity_face_verify_result_fail.xml" value="0.25" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_activity_open_account.xml" value="0.25" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_activity_open_account_signature.xml" value="0.3320039880358923" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_activity_protocol.xml" value="0.25" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_activity_receipt.xml" value="0.3086190917516219" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_activity_upload_open_account_pic.xml" value="0.38078002812831957" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_adapter_agreement_list.xml" value="0.15729166666666666" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_adapter_spinner.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_adapter_spinner_check_style.xml" value="0.15729166666666666" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_adapter_spinner_show.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_item_package_checkbox.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/bus_item_package_spinner.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/com_activity_crop.xml" value="0.12916666666666668" />
+        <entry key="cOpenAccount/src/main/res/layout/com_activity_custom_camera.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/com_activity_picture_selector.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/com_dialog_cameraprogress.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/common_adapter_center_list.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/common_common_title.xml" value="0.1" />
+        <entry key="cOpenAccount/src/main/res/layout/common_dialog_center_list.xml" value="0.25" />
+        <entry key="cOpenAccount/src/main/res/layout/common_dialog_confirm.xml" value="0.165" />
+        <entry key="cOpenAccount/src/main/res/layout/common_dialog_select_method.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/common_listview_header.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/common_loading_dialog.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/common_quick_view_load_more.xml" value="0.15729166666666666" />
+        <entry key="cOpenAccount/src/main/res/layout/common_separate_1_dp.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_adapter_text.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_attach_impl_list.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_attach_popup_view.xml" value="0.12916666666666668" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_bottom_popup_view.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_center_impl_confirm.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_center_impl_list.xml" value="0.2965708989805375" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_center_impl_loading.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_center_popup_view.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_divider.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_drawer_popup_view.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/common_xpopup_image_viewer_popup_view.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/item_additional_business.xml" value="0.15729166666666666" />
+        <entry key="cOpenAccount/src/main/res/layout/item_main_package.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/openh5_activity_h5_open_account.xml" value="0.15729166666666666" />
+        <entry key="cOpenAccount/src/main/res/layout/pay_activity_pay.xml" value="0.165" />
+        <entry key="cOpenAccount/src/main/res/layout/pay_activity_phone_recharge.xml" value="0.335" />
+        <entry key="cOpenAccount/src/main/res/layout/pay_adapter_recharge.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_activity_ys.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_adapter_bluetooth_item.xml" value="0.12916666666666668" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_dialog.xml" value="0.43537414965986393" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_dialog_bottom.xml" value="1.1304073527140066" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_dialog_content.xml" value="0.3072916666666667" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_dialog_search_bluetooth.xml" value="0.165" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_dialog_title.xml" value="0.32864583333333336" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_dialog_two.xml" value="0.43537414965986393" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_dialog_two_bottom.xml" value="0.12916666666666668" />
+        <entry key="cOpenAccount/src/main/res/layout/reader_my_dialog.xml" value="0.15729166666666666" />
+        <entry key="cOpenAccount/src/main/res/layout/ucommon_common_title.xml" value="0.15729166666666666" />
+        <entry key="cOpenAccount/src/main/res/layout/ucommon_dialog_loading.xml" value="0.12916666666666668" />
+        <entry key="commonSdk/src/main/res/drawable/_xpopup_round3_bg.xml" value="0.11666666666666667" />
+        <entry key="commonSdk/src/main/res/drawable/common_bg_dialog.xml" value="0.28854166666666664" />
+        <entry key="commonSdk/src/main/res/drawable/common_btn_bg_green.xml" value="0.18229166666666666" />
+        <entry key="commonSdk/src/main/res/drawable/common_selector_btn.xml" value="0.16822916666666668" />
+        <entry key="commonSdk/src/main/res/drawable/common_selector_btn_font.xml" value="0.23229166666666667" />
+        <entry key="commonSdk/src/main/res/drawable/common_selector_btn_gradient.xml" value="0.21822916666666667" />
+        <entry key="commonSdk/src/main/res/drawable/common_selector_btn_gradient_font.xml" value="0.15416666666666667" />
+        <entry key="commonSdk/src/main/res/drawable/sample_footer_loading_progress.xml" value="0.23703703703703705" />
+        <entry key="commonSdk/src/main/res/layout/_xpopup_drawer_popup_view.xml" value="0.1" />
+        <entry key="commonSdk/src/main/res/layout/common_dialog_confirm.xml" value="0.35052083333333334" />
+        <entry key="commonSdk/src/main/res/layout/common_listview_header.xml" value="0.121875" />
+        <entry key="commonSdk/src/main/res/layout/common_pull_to_refresh_head.xml" value="0.10052083333333334" />
+        <entry key="commonSdk/src/main/res/layout/common_quick_view_load_more.xml" value="0.10052083333333334" />
+        <entry key="commonSdk/src/main/res/layout/common_title.xml" value="0.27239583333333334" />
+        <entry key="commonSdk/src/main/res/layout/common_title_white_txt.xml" value="0.27239583333333334" />
+        <entry key="commonSdk/src/main/res/layout/common_xpopup_center_popup_view.xml" value="0.10052083333333334" />
+        <entry key="commonSdk/src/main/res/layout/dialog_privacy_agreement.xml" value="0.25" />
+        <entry key="commonSdk/src/main/res/layout/quick_view_load_more.xml" value="0.1" />
+        <entry key="commonTest/src/main/res/layout/activity_password.xml" value="0.25052083333333336" />
+        <entry key="commonTest/src/main/res/layout/activity_test.xml" value="0.33" />
+        <entry key="component/componentComponent/src/main/res/layout/com_activity_address.xml" value="0.25052083333333336" />
+        <entry key="component/componentComponent/src/main/res/layout/com_activity_operation_tutorial.xml" value="0.22916666666666666" />
+        <entry key="component/componentComponent/src/main/res/layout/com_activity_scan_capture.xml" value="0.25833333333333336" />
+        <entry key="component/componentComponent/src/main/res/layout/com_activity_search_address.xml" value="0.33" />
+        <entry key="component/componentComponent/src/main/res/layout/com_activity_web_view.xml" value="0.1" />
+        <entry key="component/componentComponent/src/main/res/layout/com_adapter_operation_tutorial.xml" value="0.33" />
+        <entry key="component/componentFaceLive/src/main/res/layout/face_fragment_face_verify.xml" value="0.25833333333333336" />
+        <entry key="component/componentPay/src/main/res/layout/pay_activity_pay.xml" value="0.25" />
+        <entry key="component/componentPay/src/main/res/layout/pay_activity_phone_recharge.xml" value="0.25833333333333336" />
+        <entry key="componentComponent/src/main/res/layout/com_activity_crop.xml" value="0.1" />
+        <entry key="componentComponent/src/main/res/layout/com_activity_custom_camera.xml" value="0.1" />
+        <entry key="componentComponent/src/main/res/layout/com_activity_picture_selector.xml" value="0.1" />
+        <entry key="componentPay/src/main/res/layout/pay_activity_pay.xml" value="0.1" />
+        <entry key="intoCard/src/main/res/drawable/bus_selector_bg_choose_check_filter.xml" value="0.31846153846153846" />
+        <entry key="intoCard/src/main/res/drawable/bus_spinner_check_box.xml" value="0.1734375" />
+        <entry key="intoCard/src/main/res/drawable/bus_spinner_txt_check_box.xml" value="0.1734375" />
+        <entry key="intoCard/src/main/res/drawable/common_selector_btn.xml" value="0.26666666666666666" />
+        <entry key="intoCard/src/main/res/drawable/common_selector_btn_font.xml" value="0.26666666666666666" />
+        <entry key="intoCard/src/main/res/layout/bus_activity_face_verify_result_fail.xml" value="0.3072916666666667" />
+        <entry key="intoCard/src/main/res/layout/bus_activity_open_account.xml" value="0.25" />
+        <entry key="intoCard/src/main/res/layout/bus_activity_open_account_signature.xml" value="0.13854166666666667" />
+        <entry key="intoCard/src/main/res/layout/bus_activity_protocol.xml" value="0.3072916666666667" />
+        <entry key="intoCard/src/main/res/layout/bus_activity_receipt.xml" value="0.3072916666666667" />
+        <entry key="intoCard/src/main/res/layout/bus_activity_upload_open_account_pic.xml" value="0.22916666666666666" />
+        <entry key="intoCard/src/main/res/layout/bus_adapter_agreement_list.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/bus_adapter_spinner.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/bus_adapter_spinner_check_style.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/bus_adapter_spinner_show.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/bus_item_package_checkbox.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/bus_item_package_spinner.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/com_activity_crop.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/com_activity_custom_camera.xml" value="0.1" />
+        <entry key="intoCard/src/main/res/layout/com_activity_picture_selector.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/com_dialog_cameraprogress.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/common_adapter_center_list.xml" value="0.1078125" />
+        <entry key="intoCard/src/main/res/layout/common_dialog_center_list.xml" value="0.22916666666666666" />
+        <entry key="intoCard/src/main/res/layout/common_dialog_select_method.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/common_listview_header.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/common_loading_dialog.xml" value="0.1" />
+        <entry key="intoCard/src/main/res/layout/common_quick_view_load_more.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/common_separate_1_dp.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_adapter_text.xml" value="0.25" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_attach_impl_list.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_attach_popup_view.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_bottom_popup_view.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_center_impl_confirm.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_center_impl_list.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_center_impl_loading.xml" value="0.35" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_center_popup_view.xml" value="0.1" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_divider.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_drawer_popup_view.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/common_xpopup_image_viewer_popup_view.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/item_additional_business.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/item_main_package.xml" value="0.32864583333333336" />
+        <entry key="intoCard/src/main/res/layout/pay_activity_pay.xml" value="0.165" />
+        <entry key="intoCard/src/main/res/layout/pay_activity_phone_recharge.xml" value="0.26589895978952405" />
+        <entry key="intoCard/src/main/res/layout/pay_activity_recharge_card.xml" value="0.5" />
+        <entry key="intoCard/src/main/res/layout/pay_adapter_recharge.xml" value="0.15729166666666666" />
+        <entry key="intoCard/src/main/res/layout/reader_activity_ys.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_adapter_bluetooth_item.xml" value="0.15052083333333333" />
+        <entry key="intoCard/src/main/res/layout/reader_dialog.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_dialog_bottom.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_dialog_content.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_dialog_search_bluetooth.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_dialog_title.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_dialog_two.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_dialog_two_bottom.xml" value="0.12916666666666668" />
+        <entry key="intoCard/src/main/res/layout/reader_my_dialog.xml" value="0.25" />
+        <entry key="libDialog/src/main/res/drawable/_xpopup_round3_bg.xml" value="0.11666666666666667" />
+        <entry key="libs/libDialog/src/main/res/drawable/_xpopup_round3_bg.xml" value="0.27447916666666666" />
+        <entry key="libs/libDialog/src/main/res/layout/_xpopup_adapter_text.xml" value="0.1" />
+        <entry key="libs/libDialog/src/main/res/layout/_xpopup_center_impl_confirm.xml" value="0.11197916666666667" />
+        <entry key="libs/libDialog/src/main/res/layout/_xpopup_center_popup_view.xml" value="0.19010416666666666" />
+        <entry key="libs/libDialog/src/main/res/layout/_xpopup_drawer_popup_view.xml" value="0.1" />
+        <entry key="libs/libRecyclerView/src/main/res/layout/listview_header.xml" value="0.19010416666666666" />
+        <entry key="libs/libRecyclerView/src/main/res/layout/quick_view_load_more.xml" value="0.19010416666666666" />
+        <entry key="moduleAccount/src/main/res/drawable-v21/acc_drawable_btn_get_code.xml" value="0.1" />
+        <entry key="moduleAccount/src/main/res/layout/acc_activity_change_join_info.xml" value="0.5" />
+        <entry key="moduleAccount/src/main/res/layout/acc_activity_complete_join_info.xml" value="0.33" />
+        <entry key="moduleAccount/src/main/res/layout/acc_activity_join_in.xml" value="0.27054881695771693" />
+        <entry key="moduleAccount/src/main/res/layout/acc_activity_login.xml" value="0.25" />
+        <entry key="moduleAccount/src/main/res/layout/acc_dialog_customer_service.xml" value="0.12083333333333333" />
+        <entry key="moduleAccount/src/main/res/layout/acc_dialog_privacy_agreement.xml" value="0.25" />
+        <entry key="moduleAccount/src/main/res/layout/dialog_privacy_agreement.xml" value="0.375" />
+        <entry key="moduleBusiness/src/main/res/drawable/bg_activity_open_account_packag_selection.xml" value="0.27025641025641023" />
+        <entry key="moduleBusiness/src/main/res/drawable/border_tariff_explanation.xml" value="0.27025641025641023" />
+        <entry key="moduleBusiness/src/main/res/drawable/bus_activity_open_account_packag_selection.xml" value="0.2722222222222222" />
+        <entry key="moduleBusiness/src/main/res/drawable/bus_border_tariff_explanation.xml" value="0.13697916666666668" />
+        <entry key="moduleBusiness/src/main/res/drawable/bus_drawable_open_spinner.xml" value="0.34479166666666666" />
+        <entry key="moduleBusiness/src/main/res/drawable/bus_spinner_txt_check_box.xml" value="0.20555555555555555" />
+        <entry key="moduleBusiness/src/main/res/drawable/uyou_spinner_txt_check_box.xml" value="0.13333333333333333" />
+        <entry key="moduleBusiness/src/main/res/layout/activity_receipt.xml" value="0.13854166666666667" />
+        <entry key="moduleBusiness/src/main/res/layout/activity_transfer.xml" value="0.12083333333333333" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_balance_inquiry.xml" value="0.5" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_business_order.xml" value="0.25833333333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_development_quality.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_face_verify.xml" value="0.12395833333333334" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_face_verify_result.xml" value="0.25833333333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_face_verify_result_fail.xml" value="0.27239583333333334" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_inventory_manager.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_open_account.xml" value="0.33" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_open_account_signature.xml" value="0.33" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_open_white_account.xml" value="0.20208333333333334" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_open_white_account_choose_filter.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_open_white_account_choose_number.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_open_white_normal_choose_num_and_package.xml" value="0.33" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_open_white_read_id.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_protocol.xml" value="0.25" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_receipt.xml" value="0.25" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_replacement_card.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_replacement_confirm.xml" value="0.25052083333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_replenish_add.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_replenish_detail.xml" value="0.22" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_replenish_express.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_transfer.xml" value="0.25052083333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_transfer_account.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_transfer_or_replacement_detail.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_transfer_read_id.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_upload_audit_pic.xml" value="0.25052083333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_upload_open_account_pic.xml" value="0.25" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_upload_pic_from_scan.xml" value="0.33645833333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_upload_pic_from_scan_new.xml" value="0.25833333333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_upload_supplement_pic.xml" value="0.5" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_upload_transfer_new_pic.xml" value="0.20208333333333334" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_activity_upload_transfer_or_replacement_pic.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_agreement_list.xml" value="0.5" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_choose_number.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_common_footer.xml" value="0.25052083333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_empty_number.xml" value="0.5" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_express.xml" value="0.33" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_order_replacement_card.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_order_replenish.xml" value="0.25052083333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_spinner.xml" value="0.17291666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_spinner_check_style.xml" value="0.1" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_adapter_spinner_show.xml" value="0.25833333333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_custom_business_data_recharge_month_item.xml" value="0.25833333333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_dialog_select.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_fragment_order_open_account.xml" value="0.14947916666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_fragment_order_replenish.xml" value="0.25052083333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_item_choose_filter_container.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_item_choose_filter_number.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_item_empty.xml" value="0.25052083333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_item_package_checkbox.xml" value="0.32864583333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_item_package_spinner.xml" value="0.22916666666666666" />
+        <entry key="moduleBusiness/src/main/res/layout/bus_item_tail_number.xml" value="0.22" />
+        <entry key="moduleBusiness/src/main/res/layout/item_additional_business.xml" value="0.25833333333333336" />
+        <entry key="moduleBusiness/src/main/res/layout/item_main_package.xml" value="0.18125" />
+        <entry key="moduleBusiness/src/main/res/layout/reader_dialog_two_bottom.xml" value="0.1" />
+        <entry key="moduleNumberMall/src/main/res/layout/mall_activity_number_mall.xml" value="0.2" />
+        <entry key="moduleOpenAccountH5/src/main/res/layout/openh5_activity_h5_open_account.xml" value="0.22916666666666666" />
+        <entry key="moduleUser/src/main/res/layout/user_activity_authorization.xml" value="0.25" />
+        <entry key="moduleUser/src/main/res/layout/user_activity_empower.xml" value="0.19010416666666666" />
+        <entry key="myapplication/src/main/res/layout/activity_main.xml" value="0.16770833333333332" />
+        <entry key="myapplication/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="myapplication/src/main/res/layout/activity_successful.xml" value="0.1203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/../SDKCommon/sdkCommon">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://10.163.0.37:8000/svn/app_project/BSDK_Android/SDKCommon/branches" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://10.163.0.37:8000/svn/app_project/BSDK_Android/SDKCommon/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sdkHaoU">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://10.163.0.37:8000/svn/app_project/BSDK_Android/SDKOpenAccount/branches" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://10.163.0.37:8000/svn/app_project/BSDK_Android/SDKOpenAccount/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://10.163.0.37:8000/svn/app_project/BAPP_Android/branches" />
+                  <option value="http://10.163.0.37:8000/svn/app_project/BAPP_Android/branches/crm_android_5.9.5" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://10.163.0.37:8000/svn/app_project/BAPP_Android/trunk_studio_new/BAPP" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

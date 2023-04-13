@@ -1,0 +1,97 @@
+plugins {
+    id 'com.android.application'
+    id 'com.jakewharton.butterknife'
+
+}
+
+android {
+    signingConfigs {
+        release {
+        storeFile file('/Users/shine/asd_android/sdkIntoCard/sig/test.jks')
+            storePassword '123456'
+            keyAlias 'key0'
+            keyPassword '123456'
+        }
+    }
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "6.0"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        consumerProguardFiles "consumer-rules.pro"
+
+        ndk {
+            // 活体仅支持
+            abiFilters 'armeabi', 'armeabi-v7a' //,  'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+        signingConfig signingConfigs.release
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dataBinding {
+        enabled = true;
+    }
+
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+
+    implementation project(":cOpenAccount")
+//    implementation(name: 'cOpenAccount-release', ext: 'aar')
+
+    implementation files('libs/ysidcard.jar')
+    implementation files('libs/alipaySdk-20180601.jar')
+
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+    // 微众
+//    //1. 云刷脸SDK
+    implementation(name: 'WbCloudFaceLiveSdk-v4.5.4.0-373fcb31', ext: 'aar')
+//    //2. 云common SDK
+    implementation(name: 'WbCloudNormal-v5.1.3-0f08e6d', ext: 'aar')
+
+
+
+    implementation(name: 'srreaderapi-release', ext: 'aar')
+    //定位功能
+    api 'com.amap.api:location:latest.integration'
+    //搜索功能
+    api 'com.amap.api:search:latest.integration'
+
+    implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    implementation('com.github.bumptech.glide:glide:4.9.0') {
+        exclude module: 'support-annotations'
+        exclude module: 'support-fragment'
+    }
+}

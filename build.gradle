@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+buildscript {
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        //确保model能找到依赖
+        flatDir {
+            dirs  'libs'
+        }
+
+        //maven { url "https://raw.github.com/CloudSoft-Team/webchat-android-sdk/master" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:9.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        //确保model能找到依赖
+        flatDir {
+            dirs  'libs'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

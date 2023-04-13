@@ -1,0 +1,59 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui;
+
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ReceiptActivity_ViewBinding implements Unbinder {
+  private ReceiptActivity target;
+
+  @UiThread
+  public ReceiptActivity_ViewBinding(ReceiptActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ReceiptActivity_ViewBinding(ReceiptActivity target, View source) {
+    this.target = target;
+
+    target.tv_clientSName = Utils.findRequiredViewAsType(source, R.id.tv_clientSName, "field 'tv_clientSName'", TextView.class);
+    target.tv_customer_type = Utils.findRequiredViewAsType(source, R.id.tv_customer_type, "field 'tv_customer_type'", TextView.class);
+    target.tv_paperwork_type = Utils.findRequiredViewAsType(source, R.id.tv_paperwork_type, "field 'tv_paperwork_type'", TextView.class);
+    target.tv_id_number = Utils.findRequiredViewAsType(source, R.id.tv_id_number, "field 'tv_id_number'", TextView.class);
+    target.tv_address = Utils.findRequiredViewAsType(source, R.id.tv_address, "field 'tv_address'", TextView.class);
+    target.tv_user_number = Utils.findRequiredViewAsType(source, R.id.tv_user_number, "field 'tv_user_number'", TextView.class);
+    target.tv_reception_time = Utils.findRequiredViewAsType(source, R.id.tv_reception_time, "field 'tv_reception_time'", TextView.class);
+    target.tv_order_num = Utils.findRequiredViewAsType(source, R.id.tv_order_num, "field 'tv_order_num'", TextView.class);
+    target.tv_product = Utils.findRequiredViewAsType(source, R.id.tv_product, "field 'tv_product'", TextView.class);
+    target.content_tariff_explanation = Utils.findRequiredViewAsType(source, R.id.content_tariff_explanation, "field 'content_tariff_explanation'", TextView.class);
+    target.bus_btn_confirm = Utils.findRequiredViewAsType(source, R.id.bus_btn_confirm, "field 'bus_btn_confirm'", Button.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ReceiptActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.tv_clientSName = null;
+    target.tv_customer_type = null;
+    target.tv_paperwork_type = null;
+    target.tv_id_number = null;
+    target.tv_address = null;
+    target.tv_user_number = null;
+    target.tv_reception_time = null;
+    target.tv_order_num = null;
+    target.tv_product = null;
+    target.content_tariff_explanation = null;
+    target.bus_btn_confirm = null;
+  }
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: :srreaderapi-release:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/501205d8acb1c9839104ff58502b13aa/jetified-srreaderapi-release/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/501205d8acb1c9839104ff58502b13aa/jetified-srreaderapi-release/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-srreaderapi-release.aar/24c3710e6dc53b9dd2eb13060bb42777/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-srreaderapi-release.aar/24c3710e6dc53b9dd2eb13060bb42777/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-srreaderapi-release.aar/24c3710e6dc53b9dd2eb13060bb42777/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

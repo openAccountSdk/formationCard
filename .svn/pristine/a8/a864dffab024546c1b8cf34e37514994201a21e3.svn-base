@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uyou.copenaccount"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application>
+        <activity
+            android:name="com.uyou.copenaccount.ui.ConfirmAccountOpeningActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.uyou.copenaccount.reader.YSReaderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/reader_YSTheme" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/reader_device_filter_yishu" />
+
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/reader_nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.ReceiptActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.NetProtocolActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.OpenAccountSignatureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.OpenAccountActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.UploadOpenAccountPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.OpenAccountFaceVerifyResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.PhoneRechargeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.PayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.H5OpenAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.pic.CustomCameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/com_custom_camera_AppTheme" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.pic.CropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/com_custom_camera_AppTheme" />
+        <activity
+            android:name="com.uyou.copenaccount.ui.pic.PictureSelectorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui;
+
+import android.view.View;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class OpenAccountFaceVerifyResultActivity_ViewBinding implements Unbinder {
+  private OpenAccountFaceVerifyResultActivity target;
+
+  private View view528;
+
+  @UiThread
+  public OpenAccountFaceVerifyResultActivity_ViewBinding(
+      OpenAccountFaceVerifyResultActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public OpenAccountFaceVerifyResultActivity_ViewBinding(
+      final OpenAccountFaceVerifyResultActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.txtVerifyPoint = Utils.findRequiredViewAsType(source, R.id.bus_txt_face_verify_point, "field 'txtVerifyPoint'", TextView.class);
+    target.txtPicVerifyPoint = Utils.findRequiredViewAsType(source, R.id.bus_txt_face_pic_verify_point, "field 'txtPicVerifyPoint'", TextView.class);
+    target.txtResult = Utils.findRequiredViewAsType(source, R.id.bus_txt_result, "field 'txtResult'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.bus_btn_next, "field 'btnNext' and method 'toNext'");
+    target.btnNext = Utils.castView(view, R.id.bus_btn_next, "field 'btnNext'", TextView.class);
+    view528 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toNext();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    OpenAccountFaceVerifyResultActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.txtVerifyPoint = null;
+    target.txtPicVerifyPoint = null;
+    target.txtResult = null;
+    target.btnNext = null;
+
+    view528.setOnClickListener(null);
+    view528 = null;
+  }
+}

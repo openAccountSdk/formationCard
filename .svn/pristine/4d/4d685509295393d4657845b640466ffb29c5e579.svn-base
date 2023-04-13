@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uyou.copenaccount">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application>
+        <activity
+            android:name=".ui.ConfirmAccountOpeningActivity"
+            android:exported="true" />
+        <activity
+            android:name=".reader.YSReaderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/reader_YSTheme">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/reader_device_filter_yishu" />
+
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/reader_nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name=".ui.ReceiptActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.NetProtocolActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.OpenAccountSignatureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.OpenAccountActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.UploadOpenAccountPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.OpenAccountFaceVerifyResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.PhoneRechargeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.PayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.H5OpenAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.pic.CustomCameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/com_custom_camera_AppTheme" />
+        <activity
+            android:name=".ui.pic.CropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/com_custom_camera_AppTheme" />
+        <activity
+            android:name=".ui.pic.PictureSelectorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+    </application>
+
+</manifest>

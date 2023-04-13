@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./cOpenAccount/libs/rt.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cOpenAccount/libs/rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

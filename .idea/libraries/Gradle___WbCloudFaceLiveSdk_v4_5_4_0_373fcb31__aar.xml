@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: :WbCloudFaceLiveSdk-v4.5.4.0-373fcb31:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WbCloudFaceLiveSdk-v4.5.4.0-373fcb31.aar/727ae332c61af8bfb85b7653da43e86d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WbCloudFaceLiveSdk-v4.5.4.0-373fcb31.aar/727ae332c61af8bfb85b7653da43e86d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WbCloudFaceLiveSdk-v4.5.4.0-373fcb31.aar/727ae332c61af8bfb85b7653da43e86d/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WbCloudFaceLiveSdk-v4.5.4.0-373fcb31.aar/727ae332c61af8bfb85b7653da43e86d/jars/libs/WbCloudFaceLiveSdk_R.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WbCloudFaceLiveSdk-v4.5.4.0-373fcb31.aar/727ae332c61af8bfb85b7653da43e86d/jars/libs/TuringFace_youtu_108158_7WCF54SWX5H87QEV_196_106_pack.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WbCloudFaceLiveSdk-v4.5.4.0-373fcb31.aar/727ae332c61af8bfb85b7653da43e86d/jars/libs/facelight.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,339 @@
+<resources>
+    <string name="bus_title_open_account">返档开户</string>
+    <string name="app_name">成卡开户sdk</string>
+    <string name="bus_title_face_verify_result">活体检测结果</string>
+    <string name="bus_title_open_account_sign">入网协议签字</string>
+    <string name="bus_title_replenish_express">物流详情</string>
+    <string name="bus_title_upload_open_account">上传照片</string>
+    <string name="bus_title_auditing">审核中</string>
+    <string name="bus_title_audit_fail">审核失败</string>
+
+    <string name="bus_view_detail">查看详情</string>
+
+    <string name="bus_open_account_number">开户号码:</string>
+    <string name="bus_audit_fail_reason">失败原因:</string>
+
+    <string name="bus_open_form_device">设备厂商</string>
+    <string name="bus_open_form_open_number">开户号码</string>
+    <string name="bus_open_form_open_phone">开户工号</string>
+    <string name="bus_open_form_number_val">卡号校验</string>
+    <string name="bus_open_form_name">客户姓名</string>
+    <string name="bus_open_form_card_type">证件类型</string>
+    <string name="bus_open_form_card_type_id">身份证</string>
+    <string name="bus_open_form_card_number">证件号码</string>
+    <string name="bus_open_form_card_address">证件地址</string>
+    <string name="bus_open_form_agree">我已阅读并同意（%d）</string>
+    <string name="bus_open_form_protocol">《入网协议》</string>
+    <string name="bus_open_form_fee_detail">资费说明:</string>
+    <string name="bus_face_verify_point">活体检测得分</string>
+    <string name="bus_face_pic_verify_point">图片相似度对比得分</string>
+    <string name="bus_btn_face_verify_retry">重新验证</string>
+
+    <string name="bus_hint_number_val">输入后三位数字</string>
+    <string name="bus_open_btn_scan">证件扫描</string>
+    <string name="bus_open_btn_check">校验</string>
+
+
+    <string name="bus_open_dialog_down_plug_title">下载插件</string>
+    <string name="bus_open_dialog_down_plug_content">是否下载%1$s插件</string>
+    <string name="bus_open_dialog_update_plug_content">%1$s插件需要升级</string>
+
+    <string name="bus_toast_no_plug">暂无此插件</string>
+    <string name="bus_toast_plug_error">插件参数异常</string>
+    <string name="bus_toast_val_num_empty">请输入卡号后三位数字</string>
+
+    <string name="bus_upload_tip_all">说明：请上传身份证正反面和人证卡合一照片，效果参照示例图。</string>
+    <string name="bus_upload_success">照片上传成功</string>
+    <string name="bus_suc_upload_card">身份证人像面上传成功</string>
+    <string name="bus_suc_upload_card_back">身份证国徽面上传成功</string>
+    <string name="bus_suc_upload_id_card_and_board">身份证+SIM卡正面上传成功</string>
+    <string name="bus_suc_upload_card_and_p">身份证人证合一上传成功</string>
+    <string name="bus_upload_tip_success">照片上传成功</string>
+    <string name="bus_upload_open_suc_dialog_title">开户提示</string>
+    <string name="bus_upload_tip_fail">照片上传失败\n请重新上传</string>
+
+    <string name="bus_upload_title_card">上传身份证人像面图片</string>
+    <string name="bus_upload_title_card_back">上传身份证国徽面图片</string>
+    <string name="bus_upload_title_card_and_sim">上传身份证人面像+SIM卡条码面</string>
+    <string name="bus_tip_upload_card">请按照样例图拍照，拍照前先设置相机像素>48万、相机长宽比为16:9</string>
+
+    <string name="bus_toast_need_upload_full">请保证照片都已上传</string>
+    <string name="bus_toast_positive_upload_full">身份证人像面照片未上传成功，请重新上传</string>
+    <string name="bus_toast_obverse_upload_full">身份证国徽面照片未上传成功，请重新上传</string>
+    <string name="bus_toast_id_card_and_sim_upload_full">上传身份证人面像+SIM卡条码面未上传成功，请重新上传</string>
+    <string name="bus_toast_need_upload_card">请先上传身份证人像面照片</string>
+    <string name="bus_toast_need_upload_card_back">请先上传身份证国徽面照片</string>
+    <string name="bus_toast_need_upload_card_and_sim">请先上传身份证人面像+SIM卡条码面</string>
+
+    <string name="bus_toast_no_express">暂无物流信息！！！</string>
+    <string name="bus_toast_read_error">读取失败, 请稍后重试</string>
+    <string name="bus_toast_read_not_valid">身份证有效期校验失败！</string>
+    <string name="bus_toast_agree_protocol">请同意%s</string>
+
+    <string name="bus_choose_item_price">预存: ¥%s</string>
+
+    <string name="bus_sign_please_sign">请在上面框内签字</string>
+    <string name="bus_sign_resign">重签</string>
+    <string name="bus_sign_confirm">确认办理</string>
+    <string name="bus_customer_information">客户基本信息</string>
+    <string name="bus_business_information">业务信息</string>
+    <string name="bus_package_information">套餐信息</string>
+    <string name="bus_clientSName">客户名称：%s</string>
+    <string name="bus_customer_type">客户类型：%s</string>
+    <string name="bus_type_of_certificate">证件类型：%s</string>
+    <string name="bus_id_number">证件号码：%s</string>
+    <string name="bus_address">证件地址：%s</string>
+    <string name="bus_business_type">业务类型：开户</string>
+    <string name="bus_user_number">用户号码：%s</string>
+    <string name="bus_reception_time">受理时间：%s</string>
+    <string name="bus_order_num">订单编号：%s</string>
+    <string name="bus_product">产品：%s</string>
+    <string name="bus_tariff_explanation">资费说明：</string>
+    <string name="bus_friendly_tips">本人证实上述资料属实,并已阅读及同意本受理单内容和相关协议内容。</string>
+    <string name="bus_title_open_receipt">客户综合业务受理单</string>
+
+
+    <string name="common_update_download">下载更新</string>
+    <string name="common_install_need_permission">需要授权才能进行软件安装</string>
+
+    <string name="common_cancel">取消</string>
+    <string name="common_confirm">确认</string>
+    <string name="common_next">下一步</string>
+    <string name="common_save">保存</string>
+    <string name="common_upload">上传</string>
+    <string name="common_modify">修改</string>
+
+    <string name="common_go_top">顶部</string>
+
+    <string name="common_install">安装</string>
+
+    <string name="common_reset">重置</string>
+
+    <string name="common_retry">重试</string>
+    <string name="common_not_retry">不试了</string>
+    <string name="common_quit">退出</string>
+    <string name="common_to_auth">去授权</string>
+    <string name="common_continue">继续</string>
+    <string name="common_i_know">知道了</string>
+
+    <string name="common_page_next">下一页</string>
+    <string name="common_page_before">上一页</string>
+
+    <string name="common_please_select">请选择</string>
+    <string name="common_please_input">请输入</string>
+
+    <string name="common_empty_data">暂无数据</string>
+    <string name="common_click_to_load_more">点击加载更多</string>
+    <string name="common_load_all_finish">已加全部加载完毕</string>
+
+    <string name="common_more">更多</string>
+    <string name="common_locating">正在定位中</string>
+
+    <string name="common_commit">提交</string>
+    <string name="common_select_method">选择识别方式</string>
+
+    <string name="common_title_back">返回</string>
+
+    <string name="common_dialog_title">提示</string>
+    <string name="common_dialog_important_title">重要提示</string>
+    <string name="common_dialog_sim_card_title">照片识别遇到问题</string>
+    <string name="common_no_net">您当前网络不可用！</string>
+
+    <string name="common_to_setting">去设置</string>
+
+    <string name="common_search">搜索</string>
+    <string name="common_query">查询</string>
+    <string name="common_clear">清空</string>
+    <string name="common_delete">删除</string>
+
+    <string name="common_customer_txt_service">文字客服</string>
+    <string name="common_customer_voice_service">电话客服</string>
+
+    <string name="common_form_phone_num_s">手机号</string>
+    <string name="common_form_sms_code">验证码</string>
+    <string name="common_form_num_code">图形码</string>
+    <string name="common_form_password">密码</string>
+    <string name="common_form_password_again">确认密码</string>
+
+    <string name="common_hint_phone_num">请输入手机号码</string>
+    <string name="common_hint_account_opening_number">请输入开户工号</string>
+    <string name="common_hint_sms_code">请输入验证码</string>
+    <string name="common_hint_num_code">请输入图形验证码</string>
+    <string name="common_hint_password">请输入密码</string>
+    <string name="common_hint_password_again">请再次输入密码</string>
+
+    <string name="common_err_search_empty">请输入要搜索的内容</string>
+    <string name="common_err_phone_empty">请输入手机号码</string>
+    <string name="common_err_phone_error">请输入正确的手机号码</string>
+    <string name="common_err_pwd_error">密码长度8–16位，必须包含字母和数字</string>
+    <string name="common_err_sms_code_empty">请输入验证码</string>
+    <string name="common_err_num_code_empty">请输入图文验证码</string>
+    <string name="common_err_sms_code">请输入正确的验证码</string>
+    <string name="common_err_pwd_empty">请输入密码</string>
+    <string name="common_err_old_pwd_empty">请输入旧密码</string>
+    <string name="common_err_pwd_again_empty">请输入确认密码</string>
+    <string name="common_err_pwd_diff">两次密码输入不同</string>
+    <string name="common_err_file_not_exists">图片获取失败, 请重试</string>
+    <string name="common_err_data">数据异常, 请稍后重试</string>
+
+    <string name="common_permission_apply">权限申请</string>
+    <string name="common_permission_storage">需要您授权[读写SD卡]权限才能正常使用</string>
+    <string name="common_permission_location">需要您授权[定位]权限才能正常使用</string>
+    <string name="common_permission_location_never_ask">在设置-应用-U.商汇-权限中开启位置权限，才能正常使用开户功能</string>
+    <string name="common_permission_camera">需要您授权[相机]权限才能正常使用</string>
+    <string name="common_permission_yzx">需要您授权[相机][读取手机信息]权限才能正常使用</string>
+    <string name="common_open_setting_fail">打开设置失败, 请手动打开定位权限后重试</string>
+
+    <string name="common_dialog_content_auth_install_permission">需要您授权[安装未知来源应用], 若未授权, 请点击[去授权], 若已授权, 请点击[继续]</string>
+    <string name="common_dialog_content_auth_store_permission">需要您授权[读写SD卡], 若未授权, 请点击[去授权], 若已授权, 请点击[继续]</string>
+    <string name="common_dialog_content_install">若程序未能正常安装, 请点击[安装]继续安装。\n若安装程序启动失败, 请您尝试点击[重试]重新下载安装或打开安装文件进行手动安装(目录%1$s)</string>
+
+    <string name="common_toast_open_install_permission_fail">打开权限设置失败, 请手动设置[安装未知来源应用]权限</string>
+    <string name="common_toast_unauth_install_permission">未授权[安装未知来源应用]会导致安装不能正常运行, 请进行授权</string>
+    <string name="common_toast_install_fail">启动安装程序失败, 请尝试手动打开安装文件(%1$s)或重试</string>
+
+
+    <string name="common_str_permissions">需要您授权 %1$s 才能正常使用</string>
+
+    <string name="common_err_no_camera">未检测到相机</string>
+    <string name="common_err_system_camera">启动系统相机失败</string>
+
+    <string name="common_login_out">您的帐号在别处登录，您被迫下线。\n若非本人操作，请立刻修改密码。</string>
+
+    <string name="common_no_permission">您没有使用此功能的权限</string>
+    <string name="common_refresh_to_retry">请新刷新页面后重试</string>
+
+    <string name="common_rule_no_chinese">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%*()~=#{}[];':,./?/*-_+&#094;&#060;&#062;&#064;&#038;&#124;</string>
+
+
+    <string name="common_toast_param_error">参数异常, 请重试</string>
+    <string name="common_toast_data_error">数据异常，请重试</string>
+    <string name="common_confirm_delete_pic">确定要删除这张照片吗?</string>
+
+
+    <string name="common_toast_wechat_not_install">您没有安装微信</string>
+    <string name="common_toast_wechat_not_support">您未安装最新版本微信，不支持微信支付，请安装或升级微信版本</string>
+    <string name="common_toast_wechat_error">操作失败，请安装或升级至最新版微信版本</string>
+
+
+    <string name="common_disagree">不同意</string>
+    <string name="common_agree">同意</string>
+    <string name="common_user_agreement_and_privacy_policy">用户协议与隐私政策</string>
+
+
+    <!--TakePhoto-->
+    <string name="common_tip_type_not_image">选择的不是图片</string>
+    <string name="common_tip_no_camera">没有相机</string>
+    <string name="common_tip_tips">提示</string>
+    <string name="common_tip_compress">压缩中...</string>
+    <string name="common_tip_compress_failed">"%1$s 图片压缩失败:%2$s picturePath:%3$s"</string>
+    <string name="common_msg_crop_failed">"有裁切失败的图片"</string>
+    <string name="common_msg_compress_failed">"有压缩失败的图片"</string>
+    <string name="common_msg_crop_canceled">" 取消裁切"</string>
+    <string name="common_msg_operation_canceled">"操作被取消"</string>
+    <string name="common_tip_permission_camera">没有使用[相机]的权限，请在权限管理中开启</string>
+    <string name="common_tip_permission_storage">没有使用[读写SD卡]的权限，请在权限管理中开启</string>
+    <string name="common_tip_permission_camera_storage">没有使用[相机]和[读写SD卡]的权限，请在权限管理中开启</string>
+
+    <!--custom multipleimageselect -->
+    <string name="common_album_view">选择图片</string>
+    <string name="common_image_view">单击选择</string>
+
+    <string name="common_add">确定</string>
+    <string name="common_selected">已选</string>
+    <string name="common_limit_exceeded">最多能选 %d 张</string>
+
+    <string name="common_loading">正在加载中...</string>
+    <string name="common_load_failed">加载失败，点击重试</string>
+    <string name="common_load_end">已全部加载完毕</string>
+
+    <string name="common_listview_header_hint_normal">下拉刷新</string>
+    <string name="common_listview_header_hint_release">释放立即刷新</string>
+    <string name="common_listview_loading">正在加载...</string>
+    <string name="common_nomore_loading">没有了</string>
+    <string name="common_refreshing">正在刷新...</string>
+    <string name="common_refresh_done">刷新完成</string>
+    <string name="common_loading_done">加载完成</string>
+    <string name="common_listview_header_last_time">上次更新时间：</string>
+
+    <string name="com_title_address">选择地址</string>
+    <string name="com_title_operation_tutorial">操作视频</string>
+
+    <string name="com_tip_address_search">街道，小区/大厦，门牌号</string>
+    <string name="com_toast_address_search">未找到该地址，请重新输入或选择推荐地址</string>
+
+    <string name="com_dialog_downloading">正在下载：...    %1$d  %%</string>
+    <string name="com_download_error">下载失败, 请重试</string>
+    <string name="com_download_error_no_file">更新失败, 未找到更新文件, 请稍后重试!</string>
+    <string name="pay_title_phone_recharge">充值</string>
+    <string name="pay_title_confirm">充值确认</string>
+    <string name="pay_title_recharge_card">充值卡充值</string>
+
+    <string name="pay_item_title_recharge">填写充值号码:</string>
+    <string name="pay_hint_recharge">请输入待充值的手机号码</string>
+
+    <string name="pay_tip_recharge_title">温馨提示：</string>
+    <string name="pay_tip_recharge">如果您在月初或月末充值，复机时间会有2-3小时的延迟，感谢您对U友的理解和支持！</string>
+
+    <string name="pay_recharge_income_all">累计收益</string>
+    <string name="pay_recharge_income_yesterday">昨日收益</string>
+    <string name="pay_recharge_income_today">今日收益</string>
+    <string name="pay_recharge_select_recharge">选择充值金额:</string>
+    <string name="pay_recharge_btn">立即充值</string>
+    <string name="pay_recharge_ime_confirm">确定</string>
+
+    <string name="pay_toast_select_recharge">请选择一种充值金额</string>
+
+    <string name="pay_confirm_pay">立即充值</string>
+    <string name="pay_confirm_come_on_pay">确认号码，请尽快支付</string>
+    <string name="pay_confirm_confirm_pay">确认之后请尽快支付</string>
+
+    <string name="pay_confirm_payment_type">缴费类型：%1$s</string>
+    <string name="pay_confirm_payment_num">白卡数量：%1$s</string>
+    <string name="pay_confirm_payment_amount">缴费金额：%1$s元</string>
+
+    <string name="pay_confirm_phone_num">充值号码：%1$s</string>
+    <string name="pay_confirm_phone_amount">充值金额：%1$s元</string>
+    <string name="pay_confirm_phone_pay_money">应付金额：</string>
+
+    <string name="pay_confirm_select_pay_method">选择支付方式：</string>
+    <string name="pay_confirm_method_alipay">支付宝\n推荐有支付宝账号用户使用</string>
+    <string name="pay_confirm_method_wechat">微信支付\n推荐微信5.0版本以上的用户使用</string>
+    <string name="pay_confirm_method_bank">银联在线支付\n推荐银联储蓄卡用户使用</string>
+    <string name="pay_confirm_method_red">使用红包\n您的红包余额为：%1$s元</string>
+    <string name="pay_confirm_method_card">充值卡\n推荐有充值卡号用户使用</string>
+
+    <string name="pay_hint_card_phone">请输入您的U.友手机号</string>
+    <string name="pay_hint_card_num">请输入充值卡号</string>
+    <string name="pay_hint_card_password">请输入充值密码</string>
+
+    <string name="pay_form_phone">手机号码：</string>
+    <string name="pay_form_card_type">充值卡类型：</string>
+    <string name="pay_form_card_type_10086">全国移动充值卡</string>
+    <string name="pay_form_card_type_10010">全国联通一卡充</string>
+    <string name="pay_form_card_type_10000">全国电信卡</string>
+    <string name="pay_form_card_price">充值金额：</string>
+    <string name="pay_form_card_price_30">30元</string>
+    <string name="pay_form_card_price_50">50元</string>
+    <string name="pay_form_card_price_100">100元</string>
+    <string name="pay_form_card_num">充值卡号：</string>
+    <string name="pay_form_card_password">充值密码：</string>
+
+    <string name="pay_toast_select_card_type">请选择充值卡类型</string>
+    <string name="pay_toast_select_card_price">请选择充值金额</string>
+    <string name="pay_toast_select_card_num">请填写充值卡号码</string>
+    <string name="pay_toast_select_card_password">请填写充值卡密码</string>
+    <string name="pay_toast_recharge_success">支付成功，正在充值，请您关注账户余额变化。</string>
+
+    <string name="pay_toast_bank_no_num">缺少交易流水号</string>
+
+    <string name="pay_dialog_red_message">您正在使用积分充值，充值号码为：%1$s\n充值金额为：%2$s元\n使用积分充值不享受折扣优惠。</string>
+
+    <string name="pay_card_btn">立即充值</string>
+
+    <string name="bus_please_confirm_to_open_an_account">尊敬的用户，您好，请确认办理开户...</string>
+    <string name="bus_title_confirm_account_opening">号码开户确认</string>
+    <string name="bus_resubmit">%ds后重新提交</string>
+
+
+</resources>

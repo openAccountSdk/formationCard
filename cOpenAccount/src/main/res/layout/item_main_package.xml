@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="65dp"
+    tools:ignore="ResourceName">
+
+    <RadioButton
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bus_selector_bg_choose_check_filter"
+        android:button="@null"
+        android:gravity="center"
+        android:textColor="@drawable/uyou_spinner_txt_check_box"
+        android:textSize="14sp" />
+</RelativeLayout>

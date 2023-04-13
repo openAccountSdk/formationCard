@@ -1,0 +1,154 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui.pic;
+
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import com.uyou.copenaccount.ui.pic.view.FocusView;
+import com.uyou.copenaccount.view.crop.CropImageView;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class CustomCameraActivity_ViewBinding implements Unbinder {
+  private CustomCameraActivity target;
+
+  private View view55f;
+
+  private View view560;
+
+  private View view558;
+
+  private View view559;
+
+  private View view561;
+
+  private View view557;
+
+  private View view556;
+
+  @UiThread
+  public CustomCameraActivity_ViewBinding(CustomCameraActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public CustomCameraActivity_ViewBinding(final CustomCameraActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.layoutTakePhoto = Utils.findRequiredViewAsType(source, R.id.com_layout_take_photo, "field 'layoutTakePhoto'", LinearLayout.class);
+    target.imageCardAndSim = Utils.findRequiredViewAsType(source, R.id.com_layout_card_and_sim, "field 'imageCardAndSim'", LinearLayout.class);
+    target.imageFrontHorizontal = Utils.findRequiredViewAsType(source, R.id.front_horizontal, "field 'imageFrontHorizontal'", ImageView.class);
+    target.imageObverseHorizontal = Utils.findRequiredViewAsType(source, R.id.obverse_horizontal, "field 'imageObverseHorizontal'", ImageView.class);
+    target.imageSim = Utils.findRequiredViewAsType(source, R.id.com_image_card_sim, "field 'imageSim'", ImageView.class);
+    target.imageCardAndPerson = Utils.findRequiredViewAsType(source, R.id.com_image_card_and_person, "field 'imageCardAndPerson'", ImageView.class);
+    target.layoutCamera = Utils.findRequiredViewAsType(source, R.id.com_layout_camera_container, "field 'layoutCamera'", ViewGroup.class);
+    target.viewFocusView = Utils.findRequiredViewAsType(source, R.id.com_view_focus_view, "field 'viewFocusView'", FocusView.class);
+    target.layoutCrop = Utils.findRequiredViewAsType(source, R.id.com_layout_crop, "field 'layoutCrop'", LinearLayout.class);
+    target.viewCropView = Utils.findRequiredViewAsType(source, R.id.com_view_crop_view, "field 'viewCropView'", CropImageView.class);
+    view = Utils.findRequiredView(source, R.id.com_txt_ratio_16_9, "field 'imageRatio169' and method 'ratio169'");
+    target.imageRatio169 = Utils.castView(view, R.id.com_txt_ratio_16_9, "field 'imageRatio169'", TextView.class);
+    view55f = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.ratio169();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.com_txt_ratio_9_16, "field 'imageRatio916' and method 'ratio916'");
+    target.imageRatio916 = Utils.castView(view, R.id.com_txt_ratio_9_16, "field 'imageRatio916'", TextView.class);
+    view560 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.ratio916();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.com_image_crop, "field 'btnCrop' and method 'cropPic'");
+    target.btnCrop = view;
+    view558 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.cropPic();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.com_image_take_photo, "method 'takePhoto'");
+    view559 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.takePhoto();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.com_txt_rotate, "method 'rotate'");
+    view561 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.rotate();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.com_image_close_crop, "method 'closeCrop'");
+    view557 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.closeCrop();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.com_image_close_camera, "method 'close'");
+    view556 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.close();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    CustomCameraActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.layoutTakePhoto = null;
+    target.imageCardAndSim = null;
+    target.imageFrontHorizontal = null;
+    target.imageObverseHorizontal = null;
+    target.imageSim = null;
+    target.imageCardAndPerson = null;
+    target.layoutCamera = null;
+    target.viewFocusView = null;
+    target.layoutCrop = null;
+    target.viewCropView = null;
+    target.imageRatio169 = null;
+    target.imageRatio916 = null;
+    target.btnCrop = null;
+
+    view55f.setOnClickListener(null);
+    view55f = null;
+    view560.setOnClickListener(null);
+    view560 = null;
+    view558.setOnClickListener(null);
+    view558 = null;
+    view559.setOnClickListener(null);
+    view559 = null;
+    view561.setOnClickListener(null);
+    view561 = null;
+    view557.setOnClickListener(null);
+    view557 = null;
+    view556.setOnClickListener(null);
+    view556 = null;
+  }
+}

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_common_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_app_bg_white"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/pay_txt_confirm_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pay_confirm_come_on_pay"
+                android:textColor="@color/pay_recharge_tip"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/pay_layout_type_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pay_drawable_bg_pay_item"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/pay_txt_payment_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/common_content" />
+
+                <TextView
+                    android:id="@+id/pay_txt_payment_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/common_content" />
+
+                <TextView
+                    android:id="@+id/pay_txt_payment_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/common_content" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/pay_layout_type_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pay_drawable_bg_pay_item"
+                android:orientation="vertical"
+                app:divider="@drawable/common_item_separate_dp"
+                app:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/pay_txt_phone_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/common_content"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/pay_txt_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/common_content"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/pay_txt_pay_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/common_content"
+                    android:textSize="16sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pay_drawable_bg_pay_item"
+                android:orientation="vertical"
+                android:padding="10dp"
+                app:divider="@drawable/common_item_separate_dp"
+                app:showDividers="middle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/pay_confirm_select_pay_method" />
+
+                <RadioGroup
+                    android:id="@+id/pay_group_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:divider="@drawable/common_item_separate_dp"
+                    android:dividerPadding="5dp"
+                    android:orientation="vertical"
+                    android:showDividers="middle">
+
+                    <RadioButton
+                        android:id="@+id/pay_radio_method_alipay"
+                        style="@style/pay_radio"
+                        android:drawableLeft="@drawable/pay_icon_alipay" />
+
+
+                    <RadioButton
+                        android:id="@+id/pay_radio_method_wechat"
+                        style="@style/pay_radio"
+                        android:drawableLeft="@drawable/pay_icon_wechat" />
+
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <Button
+                android:id="@+id/pay_btn_pay"
+                style="@style/common_btn"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pay_confirm_pay" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

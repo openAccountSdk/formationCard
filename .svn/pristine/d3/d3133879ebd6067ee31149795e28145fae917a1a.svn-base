@@ -1,0 +1,49 @@
+package com.uyou.copenaccount.xpopup.impl;
+
+import android.content.Context;
+import androidx.annotation.NonNull;
+import android.widget.TextView;
+
+import com.uyou.copenaccount.R;
+import com.uyou.copenaccount.xpopup.core.CenterPopupView;
+
+/**
+ * Description: 加载对话框
+ * Create by dance, at 2018/12/16
+ */
+public class LoadingPopupView extends CenterPopupView {
+    private TextView tv_title;
+
+    public LoadingPopupView(@NonNull Context context) {
+        super(context);
+    }
+
+    @Override
+    protected int getImplLayoutId() {
+        return R.layout.common_xpopup_center_impl_loading;
+    }
+
+    @Override
+    protected void initPopupContent() {
+        super.initPopupContent();
+        tv_title = findViewById(R.id.tv_title);
+        if (title != null) {
+            tv_title.setVisibility(VISIBLE);
+            tv_title.setText(title);
+        }
+    }
+
+    public void resetTitle(String title) {
+        if (title != null) {
+            tv_title.setVisibility(VISIBLE);
+            tv_title.setText(title);
+        }
+    }
+
+    private String title;
+
+    public LoadingPopupView setTitle(String title) {
+        this.title = title;
+        return this;
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uyou.copenaccount.view.SeparateCheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bus_txt_item"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/transparent"
+    android:checkMark="@drawable/bus_spinner_check_box"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:singleLine="true"
+    android:textColor="@drawable/bus_spinner_txt_check_box"
+    android:textSize="15sp" />

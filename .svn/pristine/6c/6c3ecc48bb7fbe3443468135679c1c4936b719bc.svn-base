@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/reader_dialog_reader"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reader_dialog_title"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/bt_list_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:paddingBottom="5dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/reader_icon_back_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="选择设备连接"
+                android:textColor="#8dbd0f"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/bt_list_progress"
+                style="?android:attr/progressBarStyleSmallTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="7.5dp"
+            android:text="已配对设备"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="#8dbd0f" />
+
+    <ListView
+        android:id="@+id/bt_list_paired"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_list_search"
+            android:layout_width="match_parent"
+            android:layout_height="42.5dp"
+            android:background="@drawable/reader_dialog_selector_btn_bottom"
+            android:text="搜索"
+            android:textColor="@drawable/reader_dialog_selector_txt_color_green"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/bt_list_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#eff7de"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="其他可用设备"
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <ListView
+                android:id="@+id/bt_list_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

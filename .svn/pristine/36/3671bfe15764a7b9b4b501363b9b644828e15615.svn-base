@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_app_bg_grey"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_common_title" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="15dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_quick_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/bus_tip_upload_card"
+            android:textColor="@color/common_content"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bus_image_card"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="w,1:1.2"
+
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bg_id_face"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_quick_description"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_id_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/bus_upload_title_card"
+            android:textColor="@color/common_content"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toLeftOf="@+id/bus_image_card"
+            app:layout_constraintRight_toRightOf="@+id/bus_image_card"
+            app:layout_constraintTop_toBottomOf="@+id/bus_image_card" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bus_image_card_back"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="w,1:1.2"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/bg_national_emblem_of_id_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_quick_description" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/bus_upload_title_card_back"
+            android:textColor="@color/common_content"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toLeftOf="@+id/bus_image_card_back"
+            app:layout_constraintRight_toRightOf="@+id/bus_image_card_back"
+            app:layout_constraintTop_toBottomOf="@+id/bus_image_card_back" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/id_card_and_sim"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="w,1:1.2"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bg_id_face_and_sim"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_id_card" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/bus_upload_title_card_and_sim"
+            android:textColor="@color/common_content"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toLeftOf="@+id/id_card_and_sim"
+            app:layout_constraintTop_toBottomOf="@+id/id_card_and_sim" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bus_btn_commit"
+        style="@style/common_btn_gradient"
+        android:layout_marginBottom="17dp"
+        android:enabled="false"
+        android:text="@string/common_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</LinearLayout>

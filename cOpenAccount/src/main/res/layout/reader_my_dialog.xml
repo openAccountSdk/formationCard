@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/reader_dialog_title"
+        android:padding="15dp"
+        android:text="标题"
+        android:textColor="#8dbd0f"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="#8dbd0f" />
+
+    <TextView
+        android:id="@+id/message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:text="Message"
+        android:textColor="#333333"
+        android:textSize="17.5sp" />
+
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_two_leftbtn"
+            android:layout_width="0dp"
+            android:layout_height="42.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/reader_dialog_selector_btn_bottom_left"
+            android:text="取消"
+            android:textColor="@drawable/reader_dialog_selector_txt_color_grey"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_two_rightbtn"
+            android:layout_width="0dp"
+            android:layout_height="42.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/reader_dialog_selector_btn_bottom_right"
+            android:text="确认"
+            android:textColor="@drawable/reader_dialog_selector_txt_color_green"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

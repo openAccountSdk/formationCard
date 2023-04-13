@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/reader_dialog_reader"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_one_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42.5dp"
+        android:background="@drawable/reader_dialog_selector_btn_bottom"
+        android:text="取消"
+        android:textColor="@drawable/reader_dialog_selector_txt_color_green"
+        android:textSize="18sp" />
+
+</LinearLayout>

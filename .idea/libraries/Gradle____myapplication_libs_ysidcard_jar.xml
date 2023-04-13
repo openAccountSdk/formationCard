@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./myapplication/libs/ysidcard.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/myapplication/libs/ysidcard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

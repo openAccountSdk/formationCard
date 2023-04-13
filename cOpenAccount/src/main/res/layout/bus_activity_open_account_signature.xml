@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_app_bg_grey">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/common_common_title" />
+
+    <com.uyou.copenaccount.view.sign.SignView
+        android:id="@+id/bus_sign_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintDimensionRatio="h,3:2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="12dp"
+        android:paddingVertical="5dp"
+        android:text="@string/bus_sign_please_sign"
+        android:textColor="@color/common_content"
+        android:textSize="13sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bus_sign_view" />
+
+    <TextView
+        android:id="@+id/bus_btn_resign"
+        style="@style/common_ripple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="@string/bus_sign_resign"
+        android:textColor="@color/common_green_d"
+        android:textSize="13sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bus_sign_view" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_agreement"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bus_btn_resign" />
+
+
+
+    <TextView
+        android:id="@+id/bus_btn_next"
+        style="@style/common_btn_gradient_radius"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/bus_sign_confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

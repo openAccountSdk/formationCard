@@ -1,0 +1,72 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui;
+
+import android.view.View;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import androidx.recyclerview.widget.RecyclerView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import com.uyou.copenaccount.view.sign.SignView;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class OpenAccountSignatureActivity_ViewBinding implements Unbinder {
+  private OpenAccountSignatureActivity target;
+
+  private View view528;
+
+  private View view529;
+
+  @UiThread
+  public OpenAccountSignatureActivity_ViewBinding(OpenAccountSignatureActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public OpenAccountSignatureActivity_ViewBinding(final OpenAccountSignatureActivity target,
+      View source) {
+    this.target = target;
+
+    View view;
+    target.signView = Utils.findRequiredViewAsType(source, R.id.bus_sign_view, "field 'signView'", SignView.class);
+    view = Utils.findRequiredView(source, R.id.bus_btn_next, "field 'btnNext' and method 'toCommit'");
+    target.btnNext = Utils.castView(view, R.id.bus_btn_next, "field 'btnNext'", TextView.class);
+    view528 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toCommit();
+      }
+    });
+    target.rv_agreement_list = Utils.findRequiredViewAsType(source, R.id.rv_agreement, "field 'rv_agreement_list'", RecyclerView.class);
+    view = Utils.findRequiredView(source, R.id.bus_btn_resign, "method 'toResign'");
+    view529 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toResign();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    OpenAccountSignatureActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.signView = null;
+    target.btnNext = null;
+    target.rv_agreement_list = null;
+
+    view528.setOnClickListener(null);
+    view528 = null;
+    view529.setOnClickListener(null);
+    view529 = null;
+  }
+}

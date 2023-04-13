@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdkIntoCard.iml" filepath="$PROJECT_DIR$/.idea/modules/sdkIntoCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cOpenAccount/sdkIntoCard.cOpenAccount.iml" filepath="$PROJECT_DIR$/.idea/modules/cOpenAccount/sdkIntoCard.cOpenAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/sdkIntoCard.myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/sdkIntoCard.myapplication.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,82 @@
+// Generated code from Butter Knife. Do not modify!
+package com.uyou.copenaccount.ui;
+
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.uyou.copenaccount.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class PayActivity_ViewBinding implements Unbinder {
+  private PayActivity target;
+
+  private View view5c1;
+
+  @UiThread
+  public PayActivity_ViewBinding(PayActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public PayActivity_ViewBinding(final PayActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.txtTip = Utils.findRequiredViewAsType(source, R.id.pay_txt_confirm_tip, "field 'txtTip'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.pay_btn_pay, "field 'btnPay' and method 'toPay'");
+    target.btnPay = Utils.castView(view, R.id.pay_btn_pay, "field 'btnPay'", Button.class);
+    view5c1 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.toPay();
+      }
+    });
+    target.layoutPayment = Utils.findRequiredViewAsType(source, R.id.pay_layout_type_payment, "field 'layoutPayment'", LinearLayout.class);
+    target.layoutNumber = Utils.findRequiredViewAsType(source, R.id.pay_layout_type_number, "field 'layoutNumber'", LinearLayoutCompat.class);
+    target.groupPay = Utils.findRequiredViewAsType(source, R.id.pay_group_pay, "field 'groupPay'", RadioGroup.class);
+    target.radioAliPay = Utils.findRequiredViewAsType(source, R.id.pay_radio_method_alipay, "field 'radioAliPay'", RadioButton.class);
+    target.radioWeChat = Utils.findRequiredViewAsType(source, R.id.pay_radio_method_wechat, "field 'radioWeChat'", RadioButton.class);
+    target.txtPhoneNum = Utils.findRequiredViewAsType(source, R.id.pay_txt_phone_num, "field 'txtPhoneNum'", TextView.class);
+    target.txtAmount = Utils.findRequiredViewAsType(source, R.id.pay_txt_amount, "field 'txtAmount'", TextView.class);
+    target.txtPayMoney = Utils.findRequiredViewAsType(source, R.id.pay_txt_pay_money, "field 'txtPayMoney'", TextView.class);
+    target.txtPaymentType = Utils.findRequiredViewAsType(source, R.id.pay_txt_payment_type, "field 'txtPaymentType'", TextView.class);
+    target.txtPaymentCount = Utils.findRequiredViewAsType(source, R.id.pay_txt_payment_count, "field 'txtPaymentCount'", TextView.class);
+    target.txtPaymentPrice = Utils.findRequiredViewAsType(source, R.id.pay_txt_payment_price, "field 'txtPaymentPrice'", TextView.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    PayActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.txtTip = null;
+    target.btnPay = null;
+    target.layoutPayment = null;
+    target.layoutNumber = null;
+    target.groupPay = null;
+    target.radioAliPay = null;
+    target.radioWeChat = null;
+    target.txtPhoneNum = null;
+    target.txtAmount = null;
+    target.txtPayMoney = null;
+    target.txtPaymentType = null;
+    target.txtPaymentCount = null;
+    target.txtPaymentPrice = null;
+
+    view5c1.setOnClickListener(null);
+    view5c1 = null;
+  }
+}

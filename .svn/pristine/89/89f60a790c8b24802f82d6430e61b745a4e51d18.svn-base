@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/common_layout_input_w">
+
+        <TextView
+            android:id="@+id/bus_txt_package_name"
+            style="@style/common_txt_input_w_title" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/bus_spinner_package"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/bus_drawable_open_spinner"
+            android:gravity="center_vertical"
+            android:maxLength="13"
+            android:overlapAnchor="false"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <!--98dp来自marginLeft20 + titleWidth78-->
+    <TextView
+        android:id="@+id/bus_txt_package_item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#ff9f7f"
+        android:textSize="11sp"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/bus_txt_package_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#ff9f7f"
+        android:textSize="11sp"
+        android:visibility="gone" />
+
+</LinearLayout>

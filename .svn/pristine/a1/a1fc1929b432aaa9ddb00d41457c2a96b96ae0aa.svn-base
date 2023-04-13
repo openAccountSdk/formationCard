@@ -1,0 +1,256 @@
+package com.uyou.copenaccount.base;
+
+/**
+ * Created by zdd on 2020/8/10.
+ * <p>
+ * Description:
+ */
+public interface UCConstants {
+    // TODO URL
+//    public static String APP_DOMAIN = "https://dlapp.uyou.com/";
+    public static String APP_DOMAIN = "https://csssl.uyou.com/";
+    //        public static String APP_NFC_WECHAT_REFERER_DOMAIN = "http://nfc.uyou.com/";
+    public static String WX_H5_PAY_HOST = "uyou.com";
+    public static String APP_NFC_DOMAIN = "https://prenfc.uyou.com/h5/";//预生产
+    //    public static String APP_NFC_DOMAIN = "https://nfc.uyou.com/h5/";//生产
+    public static final String APP_ID = "wx74c8d427fcbce812";
+    String SDK_VERSION = "6.1";
+    String SHARE_FLAG_WX_PAY = "share_flag_sdk_haou_for_wx_pay";
+    String FLAG_WX_PAY = "flag_sdk_haou_for_wx_pay";
+    String EVENT_WX_PAY = "event_sdk_hao_u_wx_pay";
+    /****错误提示相关****/
+    String NET_ERROR = "请求失败, 请重试";
+    String ERROR_DATA = "数据异常, 请重试";
+    String NET_SERVER_ERROR = "服务调用失败";
+    String NET_RESOLVE_ERROR = "请求参数格式错误";
+    String NET_NO_NET = "您的网络没有连接, 请连接到网络后重试";
+    String NET_PARAM_ERROR = "参数异常";
+    String NET_URL_EMPTY = "URL为空";
+    String NET_DATA_ERROR = "数据返回异常";
+    String NET_ERROR_PARSE = "数据解析错误";
+    String NET_ERROR_401 = "该请求未授权";
+    String NET_ERROR_403 = "请求被服务器拒绝";
+    String NET_ERROR_404 = "请求地址不存在";
+    String NET_ERROR_500 = "服务器发生错误";
+    String NET_ERROR_S = "请求失败";
+    String ERROR_PERMISSION = "权限已拒绝, 请授权后重试";
+
+
+    String TOAST_LOCATION_SUCCESS = "定位成功";
+    String TOAST_LOCATION_FAIL = "定位失败, CODE - ";
+    String TOAST_LOCATION_FAIL_RETRY = "定位失败, 请重试";
+    String TOAST_LOCATION_FAIL_EMPTY = "定位失败, 未获取到经纬度";
+    String TOAST_LOCATION_FAIL_RE_GEOCODE = "反地理编码失败, 请尝试重新定位";
+    String TOAST_LOCATION_FAIL_KEY = "定位失败, 鉴权失败";
+    String TOAST_LOCATION_FAIL_NET = "定位失败, 请检查您的网络";
+    String ERROR_READER_NEED_DOWNLOAD = "你需要去下载插件";
+    /**
+     * 用户名
+     */
+    String SHARE_DISPLAY_NAME = "display_name";
+
+    String SHARE_DEFAULT_DEVICE = "share_default_device";
+
+    /**
+     * 通用action data
+     */
+    String ACTION_DATA = "action_data";
+
+    String ACTION_SIGNATURE_UPLOAD_CODE = "action_signature_upload_code";
+
+
+
+    /*TAG*/
+    /**
+     * loading tag
+     */
+    String TAG_DIALOG_LOADING = "loading_dialog";
+
+    /**
+     * 凭据
+     */
+    String SHARE_CREDENTIAL = "share_credential";
+    /****通用CODE码****/
+    int CODE_PERMISSION_LOCATION = 99;
+    int CODE_PERMISSION_CAMERA = 98;
+    int CODE_PERMISSION_SR_READER = 97;
+    int CODE_OPEN_BLUETOOTH = 96;
+    int CODE_REQUEST_BLUETOOTH_ADDRESS = 95;
+
+    int CODE_PIC_CARD = 21;
+    int CODE_PIC_CARD_BACK = 22;
+    int CODE_PIC_CARD_AND_PERSON = 23;
+    int CODE_ID_CARD_AND_CARD_BOARD = 24;//身份证和卡板 （5.8新版）
+
+    // 微众活体阈值
+    int FACE_SIMILARITY_VAL = 79;
+    /**
+     * 支付类型-支付宝
+     */
+    public static final int PAY_TYPE_ALI = 1;
+    /**
+     * 支付类型-微信
+     */
+    public static final int PAY_TYPE_WECHAT = 2;
+
+    String ACTION_SIMILARITY = "similarity";
+    String ACTION_LIVE_RATE = "live_rate";
+    String ACTION_ERROR_MSG = "error_msg";
+
+    String PAGE_OPEN_ACCOUNT = "成卡开户";
+    String PAGE_OPEN_ACCOUNT_SIGN = "开户签名页";
+    String PAGE_PAY = "充值";
+    /**
+     * 开户完成后所要跳到下一个页面的包名+类名
+     */
+    String ACTION_PATH = "action_path";
+
+    /****本地缓存数据****/
+    /**
+     * 经度
+     */
+    String SHARE_LATITUDE = "share_latitude";
+    /**
+     * 纬度
+     */
+    String SHARE_LONGITUDE = "share_longitude";
+    /**
+     * 国家
+     */
+    String SHARE_COUNTRY = "share_country";
+    /**
+     * 省
+     */
+    String SHARE_PROVINCE = "share_province";
+    /**
+     * 市
+     */
+    String SHARE_CITY = "share_city";
+    /**
+     * 街区
+     */
+    String SHARE_ADDRESS_DISTRICT = "share_address_district";
+    /**
+     * 乡镇
+     */
+    String SHARE_TOWNSHIP = "share_township";
+    /**
+     * 详细地址
+     */
+    String SHARE_ADDRESS_DETAIL = "share_address_detail";
+
+
+    /****Event事件****/
+    String EVENT_CLOSE_SDK = "com.uyou.close_sdk";
+
+
+    /**
+     * 请求组件列表
+     */
+    String QUERY_DEVICES = "out_line/select_component";
+    /**
+     * 获取凭据
+     */
+    String GET_CREDENTIALS = "out_line/intoCardSDKNote";
+
+    /**
+     * 号码校验（）
+     */
+    String CHECK_NUMBER = "out_line/check_num";
+    /**
+     * 获取套餐信息（）
+     */
+    String QUERY_PACKAGE = "out_line/DoFlowPackage";
+
+
+    /**
+     * 图片校验
+     */
+    String CHECK_PIC = "out_line/pictureCheckOCR";
+    /**
+     * 证卡校验
+     */
+    String CHECK_SIM_CARD = "out_line/checkSimCard";
+
+    /**
+     * 开户(成卡) 2019-10-14
+     */
+    String OPEN_ACCOUNT_NEW = "out_line/open_account";
+
+
+    /**
+     * 创建客户资料 &校验身份证号等等乱七八糟
+     */
+    String CREATE_CUST_INFO_AND_CHECK_NUM = "out_line/createCustInfoAndCheckNum";
+    /**
+     * 获取协议
+     */
+    String GET_AGREEMENT_LIST = "common/getAgreement";
+    /**
+     * 获取活体截图且进行戴帽子检测
+     */
+    String CHECK_BE_BRANDED_AS = "out_line/checkPicHat";
+
+    /**
+     * 权限检测
+     */
+    String PERMISSION_CHECK = "out_line/accessm_anagement";
+
+    /**
+     * 缴费信息查询
+     */
+    String QUERY_RECHARGE = "out_line/get_payment_info";
+    /**
+     * 查询充值收益
+     */
+    String QUERY_INCOME = "out_line/IncomeAccount";
+    /**
+     * 微信支付
+     */
+
+    String QUERY_BANK_PAY_PARAM = "out_line/yin_lian_payment";
+
+    /**
+     * 获取支付金额
+     */
+    String QUERY_PHONE_PAY_INFO = "out_line/get_recharge";
+    /**
+     * 支付宝支付
+     */
+    String QUERY_PHONE_PAY_ALI_PARAM = "out_line/payment_submit_api";
+    /**
+     * 微信支付
+     */
+    String QUERY_PHONE_PAY_WECHAT_PARAM = "out_line/wei_xin_payment";
+
+    String PRE_INPUT_CARD_OPEN = "CHENG-CARD";//预录入成卡开户
+    String NO_INPUT_CARD_OPEN = "NO-CHENG-CARD";//未预录入成卡开户
+    String NO_FINISHED_CARD_OPEN = "BAN-CHENG-CARD";//半成卡开户
+
+
+    int THREAD_ID_001 = 100001;
+    int THREAD_ID_002 = 100002;
+    int THREAD_ID_003 = 100003;
+    int THREAD_ID_004 = 100004;
+    int THREAD_ID_005 = 100005;
+    int THREAD_ID_006 = 100006;
+    int THREAD_ID_007 = 100007;
+    int THREAD_ID_008 = 100008;
+    int THREAD_ID_009 = 100009;
+    int THREAD_ID_010 = 100010;
+    int THREAD_ID_011 = 100011;
+    int THREAD_ID_012 = 100012;
+    int THREAD_ID_013 = 100013;
+    int THREAD_ID_014 = 100014;
+    int THREAD_ID_015 = 100015;
+    int THREAD_ID_016 = 100016;
+    int THREAD_ID_017 = 100017;
+    int THREAD_ID_018 = 100018;
+    int THREAD_ID_019 = 100019;
+    int THREAD_ID_020 = 100020;
+    int THREAD_ID_021 = 100021;
+    int THREAD_ID_PAY_WECHAT = 100022;
+    int THREAD_ID_RELEASE_NUMBER = 100023;
+    int THREAD_ID_GET_AGREEMENT = 100024;
+    int THREAD_ID_CHECK_BE_BRANDED_AS = 100025;
+}

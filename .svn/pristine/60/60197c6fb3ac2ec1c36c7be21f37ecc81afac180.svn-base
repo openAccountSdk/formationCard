@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ucommon_AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="colorPrimaryDark">@color/ucommon_common_content</item>
+        <item name="android:textColorPrimary">@color/ucommon_common_content</item>
+        <item name="android:textColorHint">@color/ucommon_common_hint</item>
+    </style>
+
+    <style name="ucommon_White_AppTheme" parent="ucommon_AppTheme">
+        <item name="colorPrimaryDark">@android:color/white</item>
+    </style>
+
+    <style name="ucommon_common_ripple">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ucommon_common_ripple_border_less">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>
